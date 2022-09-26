@@ -43,7 +43,7 @@ cps = []
 def main_apv():
     imt = '~~RAJA=='
     os.system('clear')
-    print logo
+    print logo'''
     try:
         key1 = open('/sdcard/.zf.txt', 'r').read()
     except IOError:
@@ -93,7 +93,7 @@ def main_apv():
         print ''
         print '     Apni Jodi Subscription Kore Thaken'
         raw_input('    Termux Exit Kore Abar Command Run Koren ')
-        os.system('xdg-open https://wa.me/+8801876276757')
+        os.system('xdg-open https://wa.me/+8801876276757')'''
 
 
 def main_system():
