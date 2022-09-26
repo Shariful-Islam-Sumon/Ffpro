@@ -40,7 +40,7 @@ idx = []
 oks = []
 cps = []
 
-def main_apv():
+'''def main_apv():
     imt = '~~RAJA=='
     os.system('clear')
     print logo
@@ -100,7 +100,7 @@ def main_system():
     try:
         token = open('token.txt', 'r').read()
     except:
-        pass
+        pass'''
 
     try:
         r = requests.get('https://graph.facebook.com/me?access_token=' + token)
