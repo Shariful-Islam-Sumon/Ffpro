@@ -40,7 +40,7 @@ idx = []
 oks = []
 cps = []
 
-def main_apv():'''
+'''def main_apv():
     imt = '~~RAJA=='
     os.system('clear')
     print logo
@@ -72,8 +72,8 @@ def main_apv():'''
         os.system('xdg-open https://wa.me/+8801876276757')
 
     r1 = requests.get('https://github.com/skcayber/approval-1/blob/main/Approval-1.txt').text
-    if key1 in r1:
-        main_system()'''
+    if key1 in r1:'''
+        main_system()
     else:
         os.system('clear')
         print logo
