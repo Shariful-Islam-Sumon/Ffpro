@@ -40,8 +40,8 @@ idx = []
 oks = []
 cps = []
 
-'''def main_apv():
-    imt = '~~RAJA==' '''
+def main_apv():'''
+    imt = '~~RAJA=='
     os.system('clear')
     print logo
     try:
@@ -73,7 +73,7 @@ cps = []
 
     r1 = requests.get('https://github.com/skcayber/approval-1/blob/main/Approval-1.txt').text
     if key1 in r1:
-        main_system()
+        main_system()'''
     else:
         os.system('clear')
         print logo
