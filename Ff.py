@@ -93,14 +93,14 @@ cps = []
         print ''
         print '     Apni Jodi Subscription Kore Thaken'
         raw_input('    Termux Exit Kore Abar Command Run Koren ')
-        os.system('xdg-open https://wa.me/+8801876276757')
+        os.system('xdg-open https://wa.me/+8801876276757')'''
 
 
 def main_system():
     try:
         token = open('token.txt', 'r').read()
     except:
-        pass'''
+        pass
 
     try:
         r = requests.get('https://graph.facebook.com/me?access_token=' + token)
