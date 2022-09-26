@@ -43,11 +43,11 @@ cps = []
 def main_apv():
     imt = '~~RAJA=='
     os.system('clear')
-    print logo'''
+    print logo
     try:
         key1 = open('/sdcard/.zf.txt', 'r').read()
     except IOError:
-        os.system('clear')
+        os.system('clear')'''
         print logo
         print '           You dont have subscrption'
         print '           Hello Dear Command Kinto Paid'
