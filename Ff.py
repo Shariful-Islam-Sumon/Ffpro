@@ -47,7 +47,7 @@ def main_apv():
     try:
         key1 = open('/sdcard/.zf.txt', 'r').read()
     except IOError:
-        os.system('clear')'''
+        os.system('clear')
         print logo
         print '           You dont have subscrption'
         print '           Hello Dear Command Kinto Paid'
@@ -71,7 +71,7 @@ def main_apv():
         raw_input('    Termux Exit Kore Abar Command Run Koren ')
         os.system('xdg-open https://wa.me/+8801876276757')
 
-    r1 = requests.get('https://github.com/skcayber/approval-1/blob/main/Approval-1.txt').text
+    '''r1 = requests.get('https://github.com/skcayber/approval-1/blob/main/Approval-1.txt').text
     if key1 in r1:
         main_system()
     else:
