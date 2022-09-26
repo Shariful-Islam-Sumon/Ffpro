@@ -41,7 +41,7 @@ oks = []
 cps = []
 
 '''def main_apv():
-    imt = '~~RAJA=='
+    imt = '~~RAJA==' '''
     os.system('clear')
     print logo
     try:
@@ -93,7 +93,7 @@ cps = []
         print ''
         print '     Apni Jodi Subscription Kore Thaken'
         raw_input('    Termux Exit Kore Abar Command Run Koren ')
-        os.system('xdg-open https://wa.me/+8801876276757')'''
+        os.system('xdg-open https://wa.me/+8801876276757')
 
 
 def main_system():
