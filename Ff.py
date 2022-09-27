@@ -93,7 +93,7 @@ def main_apv():
         print ''
         print '     Apni Jodi Subscription Kore Thaken'
         raw_input('    Termux Exit Kore Abar Command Run Koren ')
-        os.system('xdg-open https://wa.me/+8801876276757')'''
+        os.system('xdg-open https://wa.me/+8801876276757')
 
 
 def main_system():
@@ -114,7 +114,7 @@ def main_system():
         print ''
     except:
         print '\x1b[1;91mToken on Chekpiont '
-        os.system('rm -rf token.txt')
+        os.system('rm -rf token.txt')'''
 
     os.system('clear')
     print logo
