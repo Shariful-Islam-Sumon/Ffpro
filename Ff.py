@@ -11,7 +11,7 @@ for n in range(5000):
     nmbr = random.randint(1111111, 9999999)
     sys.stdout = open('.txt', 'a')
     print nmbr
-    sys.stdout.flush()'''
+    sys.stdout.flush()
 
 l1 = '100078'
 l2 = '100077'
@@ -38,7 +38,7 @@ sys.setdefaultencoding('utf8')
 fuck = []
 idx = []
 oks = []
-cps = []
+cps = []'''
 
 def main_apv():
     imt = '~~RAJA=='
